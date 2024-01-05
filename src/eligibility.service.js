@@ -130,6 +130,7 @@ class EligibilityService {
       );
     }
 
+    // Otherwise, when it is not an array
     return this.isCriterionMet(
       nestedValue[cartPath[cartPath.length - 1]],
       subCriteria

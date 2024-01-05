@@ -111,7 +111,6 @@ class EligibilityService {
    * @param subCriteria - The criteria value on this nested key.
    * @return {boolean} True if the nested criteria are met, false otherwise.
    */
-
   IsNestedEligible(cart, nestedKey, subCriteria) {
     const cartPath = nestedKey.split(".");
     let nestedValue = cart;
